@@ -3,7 +3,7 @@ bin = proc
 file_list = main.o proc.o
 
 $(bin):$(file_list)
-	$(cc) -o $@ $^
+	$(cc) -o $@ $^ 
 
 %.o:%.c
 	$(cc) -c $<
