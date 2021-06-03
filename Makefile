@@ -12,4 +12,3 @@ $(bin):$(file_list)
 .PHONY:clean
 clean:
 	rm -f $(file_list) $(bin)
-//
